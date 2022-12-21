@@ -1,0 +1,99 @@
+@media (max-width:600px) {
+
+
+    body {
+        background: #f2edea;
+    }
+
+    nav {
+        height: 30px;
+        background-color: #F0C75E;
+        align-items: center;
+        display: grid;
+        font-family: 'Alegreya Sans SC';
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    header {
+        margin-top: 3.5rem;
+        position: relative;
+    }
+
+    .header__container {
+        /*height 100vh; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .header__container__border {
+        background-clip: padding-box;
+        border: 4px solid #F0C75E;
+        border-radius: 15px;
+        width: 350px;
+        height: 200px;
+        box-shadow: 0px 4px 10px rgb(0 0 0 / 25%);
+    }
+
+    .header__image {
+        background-image: url(https://i.ibb.co/74StDVc/cz-Nmcy1wcml2-YXRl-L3-Jhd3-Bpe-GVs-X2lt-YWdlcy93-ZWJza-XRl-X2-Nvbn-Rlbn-Qvb-HIvdj-Ew-ODAt-MTkz-Xz-Eu.png);
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        display: block;
+        background-color: transparent;
+    }
+
+    section {
+
+        margin-top: 4.5rem;
+    }
+
+    .section__littlebackground {
+        display: flex;
+        justify-content: center;
+        background-color: #FFFFFF;
+        height: 20px;
+    }
+
+    .block {
+        height: 40px;
+        width: 40px;
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);        position: relative;
+        bottom: 1rem;
+        border-radius: 5px;
+    }
+
+    .block--yellow1 {
+        background-color: #ECB939;
+        margin-right: 2.5rem;
+    }
+
+    .block--yellow2 {
+        background-color: #F0C75E;
+        margin-right: 2.5rem;
+    }
+
+    .block--grey {
+        background-color: #726255;
+        margin-right: 2.5rem;
+    }
+
+    .block--black1 {
+        background-color: #372E29;
+        margin-right: 2.5rem;
+    }
+
+    .block--black2 {
+        background-color: #000000;
+    }
+
+}
