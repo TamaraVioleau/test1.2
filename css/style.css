@@ -43,15 +43,12 @@
 
 
     .header__container__border {
-        background-clip: padding-box;
-        border-radius: 15px;
         width: 80%;
-        /*      box-shadow: 0px 4px 10px rgb(0 0 0 / 25%);
-        border: 4px solid #F0C75E; */
+        display: flex;
     }
 
     .header__image {
-        content: url(https://i.ibb.co/TT95n5f/34a48e6…-1-removebg-preview.png);
+        content: url(https://i.ibb.co/Svwhxk9/cz-Nmcy1wcml2-YXRl-L3-Jhd3-Bpe-GVs-X2lt-YWdlcy93-ZWJza-XRl-X2-Nvbn-Rlbn-Qvb-HIvcm00-Nz-Ut-Zn-Jhb-WUt.png);
         width: 40%;
         background-position: center;
         background-size: cover;
@@ -61,11 +58,14 @@
     }
 
     h1 {
-        font: 5rem "Lobster", cursive;
+        font: 10rem "Lobster", cursive;
         text-shadow: 2px 1px 0 #fbfae8, 5px 4px 0 coral;
         margin: 0;
         color: #333;
         font-family: 'Gochi Hand';
+        position: absolute;
+        left: 15rem;
+        top: 1rem;
     }
 
 
