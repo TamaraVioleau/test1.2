@@ -79,6 +79,7 @@
         margin-top: 4.5rem;
         padding: 0 3rem;
         display: grid;
+        width: 80%;
     }
 
     .notes {
@@ -104,7 +105,7 @@
         top: 0;
         left: 0;
         background: #111;
-        background: linear-gradient(to right, #111 15px, transparent 15px, transparent 95px, #111 95px);
+        background: linear-gradient(to right, #111 15px, transparent 15px, transparent 140px, #111 95px);
     }
 
     .notes__list {
