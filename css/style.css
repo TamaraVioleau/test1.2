@@ -6,18 +6,25 @@
         height: 100vh;
         background: linear-gradient(90deg, #f2edea 15px, transparent 1%) center, linear-gradient(#f2edea 15px, transparent 1%) center, #795548;
         background-size: 16px 16px;
+        box-sizing: border-box;
+        color: #333;
     }
 
     nav {
-        height: 30px;
-        background-color: #F0C75E;
+        background-color: #fbfbfb;
         align-items: center;
         display: grid;
         font-family: 'Alegreya Sans SC';
+        margin: 25px;
+        border-radius: 8px;
+        padding: 14px 5px;
+        box-shadow: 3px 3px 0 0 rgb(240 199 94 / 57%);
+
     }
 
     nav ul {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-evenly;
     }
 
@@ -37,17 +44,15 @@
 
     .header__container__border {
         background-clip: padding-box;
-        border: 4px solid #F0C75E;
         border-radius: 15px;
-        width: 350px;
-        height: 200px;
-        box-shadow: 0px 4px 10px rgb(0 0 0 / 25%);
+        width: 80%;
+        /*      box-shadow: 0px 4px 10px rgb(0 0 0 / 25%);
+        border: 4px solid #F0C75E; */
     }
 
     .header__image {
-        background-image: url(https://i.ibb.co/74StDVc/cz-Nmcy1wcml2-YXRl-L3-Jhd3-Bpe-GVs-X2lt-YWdlcy93-ZWJza-XRl-X2-Nvbn-Rlbn-Qvb-HIvdj-Ew-ODAt-MTkz-Xz-Eu.png);
-        width: 100%;
-        height: 100%;
+        content: url(https://i.ibb.co/TT95n5f/34a48e6…-1-removebg-preview.png);
+        width: 40%;
         background-position: center;
         background-size: cover;
         position: relative;
@@ -55,9 +60,57 @@
         background-color: transparent;
     }
 
+    h1 {
+        font: 5rem "Lobster", cursive;
+        text-shadow: 2px 1px 0 #fbfae8, 5px 4px 0 coral;
+        margin: 0;
+        color: #333;
+        font-family: 'Gochi Hand';
+    }
+
+
     section {
 
         margin-top: 4.5rem;
+    }
+
+    .section_notes {
+        font-family: "Gochi Hand";
+        margin-top: 4.5rem;
+        padding: 0 3rem;
+        display: grid;
+    }
+
+    .notes {
+        border: 2px solid #111;
+        border-width: 0 2px 2px;
+        margin: 35px 20px 0 0;
+        position: relative;
+    /*     grid-area: "notes"; */
+    }
+
+    .notes span {
+        display: block;
+        margin: -25px 22px;
+        font: 3rem "Lobster", cursive;
+        text-shadow: 2px 1px 0 #fbfae8, 5px 4px 0 #F0C75E;
+    }
+
+    .notes span::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        top: 0;
+        left: 0;
+        background: #111;
+        background: linear-gradient(to right, #111 15px, transparent 15px, transparent 95px, #111 95px);
+    }
+
+    .notes__list {
+        margin-top: 24px;
+        padding: 10px;
+        line-height: 1.2;
     }
 
     .section__littlebackground {
