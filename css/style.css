@@ -41,15 +41,9 @@
         align-items: center;
     }
 
-
-    .header__container__border {
-        width: 80%;
-        display: flex;
-    }
-
     .header__image {
         content: url(https://i.ibb.co/Svwhxk9/cz-Nmcy1wcml2-YXRl-L3-Jhd3-Bpe-GVs-X2lt-YWdlcy93-ZWJza-XRl-X2-Nvbn-Rlbn-Qvb-HIvcm00-Nz-Ut-Zn-Jhb-WUt.png);
-        width: 40%;
+        width: 30%;
         background-position: center;
         background-size: cover;
         position: relative;
@@ -58,7 +52,7 @@
     }
 
     h1 {
-        font: 10rem "Lobster", cursive;
+        font: 3rem "Lobster", cursive;
         text-shadow: 2px 1px 0 #fbfae8, 5px 4px 0 coral;
         margin: 0;
         color: #333;
@@ -69,10 +63,6 @@
     }
 
 
-    section {
-
-        margin-top: 4.5rem;
-    }
 
     .section_notes {
         font-family: "Gochi Hand";
@@ -87,7 +77,7 @@
         border-width: 0 2px 2px;
         margin: 35px 20px 0 0;
         position: relative;
-    /*     grid-area: "notes"; */
+        /*     grid-area: "notes"; */
     }
 
     .notes span {
@@ -153,5 +143,14 @@
     .block--black2 {
         background-color: #000000;
     }
+
+    .section_carres {
+
+        margin-top: 4.5rem;
+        position: relative
+    }
+
+
+
 
 }
