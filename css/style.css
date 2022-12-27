@@ -45,17 +45,17 @@
     }
 
     h1 {
-        font: 4.5rem "Lobster", cursive;
+        font: 4.5rem "Lobster";
         text-shadow: 2px 1px 0 #fbfae8, 5px 4px 0 coral;
         color: #333;
-        font-family: 'Gochi Hand';
         margin-right: -4rem;
         top: 1rem;
         position: relative;
     }
 
     .section_notes {
-        font-family: "Gochi Hand";
+        /* font-family: "Gochi Hand"; */
+        font-family: "Alegreya sans Sc";
         margin-top: 4.5rem;
         padding: 0 3rem;
         display: grid;
@@ -131,6 +131,57 @@
         background-color: #000000;
     }
 
+    /* PORTFOLIO */
 
+    .portfolio {
+        padding: 40px 50px;
+    }
 
+    .portfolio_grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+        grid-gap: 25px;
+    }
+
+    .portfolio_card {
+        position: relative;
+        margin-top: 1rem;
+    }
+
+    .portfolio_polaroid {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #eee;
+        display: flex;
+        flex-wrap: wrap;
+        background: #fff;
+        border: 1.5px solid #37353f;
+        border-radius: 1px 1px 125px 3px/10px 85px 5px 55px;
+        transition: .2s ease;
+        transform: rotate(1.5deg);
+    }
+
+    .portfolio-card_image-src {
+        position: absolute;
+        left: 15px;
+        top: 120px;
+        cursor: default;
+    }
+
+    .portfolio-card img {
+        height: 180px;
+        object-fit: cover;
+        margin-bottom: 5px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .bucket-card__location {
+        flex: 1;
+        text-align: center;
+        font-family: "Gochi Hand";
+        margin-top: 2px;
+      }
 }
