@@ -27,21 +27,19 @@
     }
 
     header {
-        margin-top: 3.5rem;
         position: relative;
     }
 
     .header__container {
-        /*height 100vh; */
         display: flex;
-        flex-direction: column;
+        flex-direction: row-reverse;
         justify-content: center;
         align-items: center;
     }
 
     .header__image {
         content: url(https://i.ibb.co/Svwhxk9/cz-Nmcy1wcml2-YXRl-L3-Jhd3-Bpe-GVs-X2lt-YWdlcy93-ZWJza-XRl-X2-Nvbn-Rlbn-Qvb-HIvcm00-Nz-Ut-Zn-Jhb-WUt.png);
-        width: 30%;
+        width: 10rem;
         background-position: center;
         background-size: cover;
     }
@@ -49,9 +47,11 @@
     h1 {
         font: 4.5rem "Lobster", cursive;
         text-shadow: 2px 1px 0 #fbfae8, 5px 4px 0 coral;
-        margin: 0;
         color: #333;
         font-family: 'Gochi Hand';
+        margin-right: -4rem;
+        top: 1rem;
+        position: relative;
     }
 
     .section_notes {
@@ -92,20 +92,19 @@
         line-height: 1.2;
     }
 
-    .section__littlebackground {
+    .section_carres {
         display: flex;
         justify-content: center;
-        background-color: #FFFFFF;
-        height: 20px;
+        margin-top: 1rem;
     }
 
     .block {
-        height: 40px;
-        width: 40px;
+        height: 20px;
+        width: 20px;
         box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
         position: relative;
         bottom: 1rem;
-        border-radius: 5px;
+        border-radius: 100%;
     }
 
     .block--yellow1 {
@@ -131,13 +130,6 @@
     .block--black2 {
         background-color: #000000;
     }
-
-    .section_carres {
-
-        margin-top: 4.5rem;
-        position: relative
-    }
-
 
 
 
