@@ -1,4 +1,4 @@
-@media (max-width:576px) {
+
 
 
     body {
@@ -131,6 +131,8 @@
         background-color: #000000;
     }
 
+
+
     /* PORTFOLIO */
 
     .portfolio {
@@ -167,6 +169,7 @@
         left: 15px;
         top: 120px;
         cursor: default;
+        display: contents;
     }
 
     .portfolio-card img {
@@ -185,4 +188,6 @@
         font-family: "Gochi Hand";
         margin-top: 2px;
       }
+
+      @media (max-width:576px) {
 }
